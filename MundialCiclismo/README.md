@@ -1,1 +1,44 @@
-html><head><title>Proyecto 2 Corte Avanzada</title><meta content="text/html; charset=UTF-8" http-equiv="content-type"><style type="text/css">.lst-kix_78ei8na8oaml-2>li:before{content:"\0025cf  "}.lst-kix_auxhtrqmkqhe-7>li:before{content:"\0025cb  "}.lst-kix_78ei8na8oaml-6>li:before{content:"\0025cb  "}.lst-kix_78ei8na8oaml-5>li:before{content:"\0025cf  "}.lst-kix_78ei8na8oaml-7>li:before{content:"\0025c6  "}.lst-kix_78ei8na8oaml-1>li:before{content:"\0025c6  "}.lst-kix_auxhtrqmkqhe-0>li:before{content:"\0025cf  "}.lst-kix_auxhtrqmkqhe-3>li:before{content:"\0025cf  "}ul.lst-kix_78ei8na8oaml-8{list-style-type:none}ul.lst-kix_78ei8na8oaml-7{list-style-type:none}ul.lst-kix_78ei8na8oaml-6{list-style-type:none}ul.lst-kix_78ei8na8oaml-5{list-style-type:none}ul.lst-kix_78ei8na8oaml-4{list-style-type:none}ul.lst-kix_78ei8na8oaml-3{list-style-type:none}.lst-kix_78ei8na8oaml-3>li:before{content:"\0025cb  "}ul.lst-kix_78ei8na8oaml-2{list-style-type:none}ul.lst-kix_78ei8na8oaml-1{list-style-type:none}ul.lst-kix_78ei8na8oaml-0{list-style-type:none}.lst-kix_auxhtrqmkqhe-2>li:before{content:"\0025a0  "}.lst-kix_auxhtrqmkqhe-5>li:before{content:"\0025a0  "}.lst-kix_78ei8na8oaml-0>li:before{content:"\002794  "}ul.lst-kix_auxhtrqmkqhe-8{list-style-type:none}ul.lst-kix_auxhtrqmkqhe-4{list-style-type:none}ul.lst-kix_auxhtrqmkqhe-5{list-style-type:none}ul.lst-kix_auxhtrqmkqhe-6{list-style-type:none}ul.lst-kix_auxhtrqmkqhe-7{list-style-type:none}.lst-kix_auxhtrqmkqhe-1>li:before{content:"\0025cb  "}.lst-kix_auxhtrqmkqhe-4>li:before{content:"\0025cb  "}.lst-kix_78ei8na8oaml-8>li:before{content:"\0025cf  "}ul.lst-kix_auxhtrqmkqhe-0{list-style-type:none}ul.lst-kix_auxhtrqmkqhe-1{list-style-type:none}ul.lst-kix_auxhtrqmkqhe-2{list-style-type:none}ul.lst-kix_auxhtrqmkqhe-3{list-style-type:none}.lst-kix_78ei8na8oaml-4>li:before{content:"\0025c6  "}.lst-kix_auxhtrqmkqhe-8>li:before{content:"\0025a0  "}.lst-kix_auxhtrqmkqhe-6>li:before{content:"\0025cf  "}ol{margin:0;padding:0}.c0{padding-left:0pt;direction:ltr;margin-left:108pt}.c1{padding-left:0pt;direction:ltr;margin-left:36pt}.c2{padding-left:0pt;direction:ltr;margin-left:72pt}.c6{max-width:468pt;background-color:#ffffff;padding:72pt 72pt 72pt 72pt}.c3{margin:0;padding:0}.c4{direction:ltr}.c5{height:11pt}.title{padding-top:24pt;line-height:1.15;text-align:left;color:#000000;font-size:36pt;font-family:"Arial";font-weight:bold;padding-bottom:6pt}.subtitle{padding-top:18pt;line-height:1.15;text-align:left;color:#666666;font-style:italic;font-size:24pt;font-family:"Georgia";padding-bottom:4pt}li{color:#000000;font-size:11pt;font-family:"Arial"}p{color:#000000;font-size:11pt;margin:0;font-family:"Arial"}h1{padding-top:24pt;line-height:1.15;text-align:left;color:#000000;font-size:24pt;font-family:"Arial";font-weight:bold;padding-bottom:6pt}h2{padding-top:18pt;line-height:1.15;text-align:left;color:#000000;font-size:18pt;font-family:"Arial";font-weight:bold;padding-bottom:4pt}h3{padding-top:14pt;line-height:1.15;text-align:left;color:#000000;font-size:14pt;font-family:"Arial";font-weight:bold;padding-bottom:4pt}h4{padding-top:12pt;line-height:1.15;text-align:left;color:#000000;font-size:12pt;font-family:"Arial";font-weight:bold;padding-bottom:2pt}h5{padding-top:11pt;line-height:1.15;text-align:left;color:#000000;font-size:11pt;font-family:"Arial";font-weight:bold;padding-bottom:2pt}h6{padding-top:10pt;line-height:1.15;text-align:left;color:#000000;font-size:10pt;font-family:"Arial";font-weight:bold;padding-bottom:2pt}</style></head><body class="c6"><p class="c4"><span>Mundial de ciclismo =&gt; Competencia anual</span></p><p class="c4 c5"><span></span></p><ul class="c3 lst-kix_78ei8na8oaml-0 start"><li class="c1"><span>Crear competici&oacute;n </span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-1 start"><li class="c2"><span>Nombre del pa&iacute;s anfitri&oacute;n</span></li><li class="c2"><span>A&ntilde;o fecha inicio</span></li><li class="c2"><span>A&ntilde;o fecha fin</span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-0"><li class="c1"><span>Crear participantes</span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-1"><li class="c2"><span>Nombre pa&iacute;s </span></li><li class="c2"><span>Bandera</span></li><li class="c2"><span>Zona de ubicaci&oacute;n (Continente</span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-0"><li class="c1"><span>Las delegaciones son 1 por pa&iacute;s </span></li><li class="c1"><span>Una delegaci&oacute;n esta compuesta por</span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-1"><li class="c2"><span>Ciclistas</span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-2 start"><li class="c0"><span>Nombre</span></li><li class="c0"><span>edad</span></li><li class="c0"><span>G&eacute;nero</span></li><li class="c0"><span>Foto</span></li><li class="c0"><span>Competencia en la que participa</span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-1"><li class="c2"><span>Entrenador</span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-2"><li class="c0"><span>Nombre</span></li><li class="c0"><span>G&eacute;nero</span></li><li class="c0"><span>Tiempo que lleva con el atleta </span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-1"><li class="c2"><span>Personal de apoyo </span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-2"><li class="c0"><span>Nombre</span></li><li class="c0"><span>G&eacute;nero </span></li><li class="c0"><span>Cargo</span></li><li class="c0"><span>Tiempo de estad&iacute;a en los juegos</span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-0"><li class="c1"><span>Crear delegaci&oacute;n </span></li><li class="c1"><span>Consultar todos los participantes por pa&iacute;s divididos por cargos</span></li><li class="c1"><span>Crear competencias</span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-1"><li class="c2"><span>Nombre</span></li><li class="c2"><span>Lugar</span></li><li class="c2"><span>Fecha y hora</span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-0"><li class="c1"><span>Adicionar pa&iacute;s y ciclista por cometici&oacute;n </span></li><li class="c1"><span>Controlar y consultar el orden y de clasificaci&oacute;n por competencia</span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-1"><li class="c2"><span>Tiempo de llegada del ciclista</span></li><li class="c2"><span>Posici&oacute;n del ciclista </span></li><li class="c2"><span>Nombre del ciclista</span></li><li class="c2"><span>Bandera del pa&iacute;s </span></li><li class="c2"><span>Tiempo utilizado</span></li></ul><ul class="c3 lst-kix_78ei8na8oaml-0"><li class="c1"><span>El ciclista puede estar en varias competencias</span></li><li class="c1"><span>Consultar competencias sus podios (oro, plata, &nbsp;bronce)</span></li><li class="c1"><span>1, 2 y 3 puesto no deben tener igual tiempo</span></li></ul></body></html>
+Mundial de ciclismo => Competencia anual
+============
+
+* Crear competición 
+ 	- Nombre del país anfitrión
+	- Año fecha inicio
+	- Año fecha fin
+* Crear participantes
+	- Nombre país 
+	- Bandera
+	- Zona de ubicación (Continente
+* Las delegaciones son 1 por país 
+* Una delegación esta compuesta por
+	- Ciclistas
+		- Nombre
+		- edad
+		- Género
+		- Foto
+		- Competencia en la que participa
+	- Entrenador
+		- Nombre
+		- Género
+		- Tiempo que lleva con el atleta 
+	- Personal de apoyo 
+		- Nombre
+		- Género 
+		- Cargo
+		- Tiempo de estadía en los juegos
+* Crear delegación 
+* Consultar todos los participantes por país divididos por cargos
+* Crear competencias
+	- Nombre
+	- Lugar
+	- Fecha y hora
+* Adicionar país y ciclista por cometición 
+* Controlar y consultar el orden y de clasificación por competencia
+	- Tiempo de llegada del ciclista
+	- Posición del ciclista 
+	- Nombre del ciclista
+	- Bandera del país 
+	- Tiempo utilizado
+* El ciclista puede estar en varias competencias
+* Consultar competencias sus podios (oro, plata,  bronce)
+* 1, 2 y 3 puesto no deben tener igual tiempo
