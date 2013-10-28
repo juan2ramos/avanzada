@@ -23,14 +23,14 @@ public class CiclistaModel implements ObjectsInterface{
         return INSTANCE;
     }
 
-    public void addCompeticion(Ciclista ciclistas) {
+    public void addCiclista(Ciclista ciclistas) {
         this.ciclistas.add(ciclistas);
     }
 
 
 
-    public ArrayList getCompeticion() {
-        return null;
+    public ArrayList<Ciclista> getCiclista() {
+        return ciclistas;
         
     }
 

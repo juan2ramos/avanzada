@@ -4,7 +4,8 @@
  */
 package mundialciclismo;
 
-import com.sun.org.apache.bcel.internal.classfile.Code;
+
+import java.util.ArrayList;
 import java.util.Enumeration;
 
 /**
@@ -28,11 +29,11 @@ public class Facade {
 
     public Facade() {
         ciclistaModel = (CiclistaModel) FactoriaMundial.getInstance().crearObjetos(FactoriaMundial.CiclistaModelStr);
-        competenciaModel = (CompetenciaModel) FactoriaMundial.getInstance().crearObjetos(FactoriaMundial.CompetenciaModelStr);
-        competicionModel = (CompeticionModel) FactoriaMundial.getInstance().crearObjetos(FactoriaMundial.CompeticionModelStr);
-        delegacionModel = (DelegacionModel) FactoriaMundial.getInstance().crearObjetos(FactoriaMundial.DelegacionModelStr);
-        entrenadorModel = (EntrenadorModel) FactoriaMundial.getInstance().crearObjetos(FactoriaMundial.EntrenadorModelStr);
-        personalApoyoModel = (PersonalApoyoModel) FactoriaMundial.getInstance().crearObjetos(FactoriaMundial.PersonalApoyoModelStr);
+        //competenciaModel = (CompetenciaModel) FactoriaMundial.getInstance().crearObjetos(FactoriaMundial.CompetenciaModelStr);
+        //competicionModel = (CompeticionModel) FactoriaMundial.getInstance().crearObjetos(FactoriaMundial.CompeticionModelStr);
+        //delegacionModel = (DelegacionModel) FactoriaMundial.getInstance().crearObjetos(FactoriaMundial.DelegacionModelStr);
+        //entrenadorModel = (EntrenadorModel) FactoriaMundial.getInstance().crearObjetos(FactoriaMundial.EntrenadorModelStr);
+        //personalApoyoModel = (PersonalApoyoModel) FactoriaMundial.getInstance().crearObjetos(FactoriaMundial.PersonalApoyoModelStr);
     
     }
     public static Facade getInstance() {
@@ -41,5 +42,11 @@ public class Facade {
         }
         return INSTANCE;
     }
-    
+    public void  insertarCiclista(Ciclista ciclista){
+        ciclistaModel.addCiclista(ciclista);
+    }
+    public ArrayList getCiclictas(){
+        return ciclistaModel.getCiclista();
+    }
+        
 }
