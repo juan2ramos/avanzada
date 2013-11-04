@@ -18,6 +18,9 @@ public class PersonalApoyo extends Participantes {
         this.cargo = cargo;
         this.Tiempo = Tiempo;
     }
-    
+    @Override
+    public String toString() {
+        return getNombre(); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

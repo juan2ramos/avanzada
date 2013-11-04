@@ -33,7 +33,7 @@ public class CompeticionModel implements ObjectsInterface{
 
 
     public ArrayList getCompeticion() {
-        return null;
+        return competiciones;
         
     }
 

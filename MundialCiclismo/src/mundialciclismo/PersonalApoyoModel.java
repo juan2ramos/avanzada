@@ -23,14 +23,14 @@ public class PersonalApoyoModel implements ObjectsInterface{
         return INSTANCE;
     }
 
-    public void addCompeticion(PersonalApoyo personalApoyo) {
+    public void addPersonalApoyo(PersonalApoyo personalApoyo) {
         this.personalApoyos.add(personalApoyo);
     }
 
 
 
-    public ArrayList getCompeticion() {
-        return null;
+    public ArrayList getPersonalApoyo() {
+        return personalApoyos;
         
     }
 

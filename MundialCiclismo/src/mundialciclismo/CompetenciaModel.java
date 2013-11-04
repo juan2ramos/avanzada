@@ -23,14 +23,15 @@ public class CompetenciaModel implements ObjectsInterface{
         return INSTANCE;
     }
 
-    public void addCompeticion(Competencias competenciases) {
+    public void addCompeticiones(Competencias competenciases) {
         this.competenciases.add(competenciases);
+        System.out.print(this.competenciases);
     }
 
 
 
-    public ArrayList getCompeticion() {
-        return null;
+    public ArrayList getCompeticiones() {
+        return competenciases;
         
     }
 

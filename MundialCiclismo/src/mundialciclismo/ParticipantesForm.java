@@ -4,17 +4,24 @@
  */
 package mundialciclismo;
 
+import java.util.ArrayList;
+import javax.swing.DefaultListModel;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author juan2ramos
  */
 public class ParticipantesForm extends javax.swing.JInternalFrame {
 
+    
     /**
      * Creates new form ParticipantesForm
      */
     public ParticipantesForm() {
         initComponents();
+        ArrayList participantes = Facade.getInstance().getParticipantes();
+        ListParticipates.setListData(participantes.toArray());
     }
 
     /**
@@ -45,7 +52,7 @@ public class ParticipantesForm extends javax.swing.JInternalFrame {
         tiempoEstadia = new javax.swing.JTextField();
         cargo = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
-        ListCiclistas = new javax.swing.JList();
+        ListParticipates = new javax.swing.JList();
 
         setClosable(true);
         setMaximizable(true);
@@ -59,8 +66,18 @@ public class ParticipantesForm extends javax.swing.JInternalFrame {
         });
 
         jButton2.setText("Add entrenador");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setText("Add Personal de apoyo");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jLabel1.setText("Ciclista");
 
@@ -88,7 +105,17 @@ public class ParticipantesForm extends javax.swing.JInternalFrame {
 
         cargo.setText(" ");
 
-        jScrollPane1.setViewportView(ListCiclistas);
+        ListParticipates.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                ListParticipatesMouseClicked(evt);
+            }
+        });
+        ListParticipates.addListSelectionListener(new javax.swing.event.ListSelectionListener() {
+            public void valueChanged(javax.swing.event.ListSelectionEvent evt) {
+                ListParticipatesValueChanged(evt);
+            }
+        });
+        jScrollPane1.setViewportView(ListParticipates);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -184,7 +211,7 @@ public class ParticipantesForm extends javax.swing.JInternalFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(31, 31, 31)
                                 .addComponent(tiempoEstadia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(24, Short.MAX_VALUE))
+                .addContainerGap(27, Short.MAX_VALUE))
         );
 
         pack();
@@ -192,10 +219,45 @@ public class ParticipantesForm extends javax.swing.JInternalFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         Ciclista ciclista = new Ciclista(nombre.getText(), edad.getText(), (String) genero.getSelectedItem(), null);
-        Facade.getInstance().insertarCiclista(ciclista);      // TODO add your handling code here:
+        Facade.getInstance().insertarCiclista(ciclista);
+        ArrayList participantes = Facade.getInstance().getParticipantes();
+        ListParticipates.setListData(participantes.toArray());
+        // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void ListParticipatesValueChanged(javax.swing.event.ListSelectionEvent evt) {//GEN-FIRST:event_ListParticipatesValueChanged
+        //Ciclista ciclista = (Ciclista) ListCiclistas.getSelectedValue();
+        //limpiar();
+             // TODO add your handling code here:
+    }//GEN-LAST:event_ListParticipatesValueChanged
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        Entrenador entrenador = new Entrenador(tiempo.getText(), nombre.getText(), edad.getText(), (String) genero.getSelectedItem(), null);
+        Facade.getInstance().insertarEntrenador(entrenador);
+        ArrayList participantes = Facade.getInstance().getParticipantes();
+        ListParticipates.setListData(participantes.toArray());
+        
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        PersonalApoyo apoyo = new PersonalApoyo(cargo.getText(),tiempoEstadia.getText(),nombre.getText(), edad.getText(), (String) genero.getSelectedItem(), null );
+        Facade.getInstance().insertarPersonalApoyo(apoyo);
+        ArrayList participantes = Facade.getInstance().getParticipantes();
+        ListParticipates.setListData(participantes.toArray());
+        
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void ListParticipatesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ListParticipatesMouseClicked
+        ListParticipates.getSelectedValue();
+        String msj = "Participante : \n";
+        
+            msj += "";
+        
+        JOptionPane.showMessageDialog(null, msj);        // TODO add your handling code here:
+    }//GEN-LAST:event_ListParticipatesMouseClicked
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JList ListCiclistas;
+    private javax.swing.JList ListParticipates;
     private javax.swing.JTextField cargo;
     private javax.swing.JTextField edad;
     private javax.swing.JComboBox genero;

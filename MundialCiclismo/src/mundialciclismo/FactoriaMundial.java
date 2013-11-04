@@ -4,6 +4,8 @@
  */
 package mundialciclismo;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author juan2ramos
@@ -34,19 +36,19 @@ public class FactoriaMundial {
             return CiclistaModel.getInstance();
         }
         if (EntrenadorModelStr.equals(nombre)) {
-            return CiclistaModel.getInstance();
+            return EntrenadorModel.getInstance();
         }
         if (PersonalApoyoModelStr.equals(nombre)) {
-            return CiclistaModel.getInstance();
+            return PersonalApoyoModel.getInstance();
         }
         if (DelegacionModelStr.equals(nombre)) {
-            return CiclistaModel.getInstance();
+            return DelegacionModel.getInstance();
         }
         if (CompetenciaModelStr.equals(nombre)) {
-            return CiclistaModel.getInstance();
+            return CompetenciaModel.getInstance();
         }
         if (CompeticionModelStr.equals(nombre)) {
-            return CiclistaModel.getInstance();
+            return CompeticionModel.getInstance();
         }
         return null;
 

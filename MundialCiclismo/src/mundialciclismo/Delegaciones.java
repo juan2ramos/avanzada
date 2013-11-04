@@ -50,9 +50,12 @@ public class Delegaciones {
         this.pais = pais;
     }
 
-    public void setParticipantes(Participantes participantes) {
-        this.participantes.add(participantes);
+    public void setParticipantes(ArrayList<Participantes> participantes) {
+        this.participantes = participantes;
     }
     
-    
+    @Override
+    public String toString() {
+        return getNombre(); //To change body of generated methods, choose Tools | Templates.
+    }
 }

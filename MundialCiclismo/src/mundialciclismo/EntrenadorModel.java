@@ -23,14 +23,14 @@ public class EntrenadorModel implements ObjectsInterface{
         return INSTANCE;
     }
 
-    public void addCompeticion(Entrenador entrenador) {
+    public void addEntrenador(Entrenador entrenador) {
         this.entrenadores.add(entrenador);
     }
 
 
 
-    public ArrayList getCompeticion() {
-        return null;
+    public ArrayList getEntrenador() {
+        return entrenadores;
         
     }
 

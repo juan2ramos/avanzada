@@ -38,8 +38,8 @@ public class Competicion {
         return pais;
     }
 
-    public void setDelegaciones(Delegaciones delegaciones) {
-        this.delegaciones.add(delegaciones);
+    public void setDelegaciones(ArrayList delegaciones) {
+        this.delegaciones = delegaciones;
     }
 
     public void setFechaFin(String fechaFin) {
@@ -53,7 +53,10 @@ public class Competicion {
     public void setPais(String pais) {
         this.pais = pais;
     }
-    
+    @Override
+    public String toString() {
+        return getPais(); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }

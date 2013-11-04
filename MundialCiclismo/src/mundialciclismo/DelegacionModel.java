@@ -23,14 +23,14 @@ public class DelegacionModel implements ObjectsInterface{
         return INSTANCE;
     }
 
-    public void addCompeticion(Delegaciones delegaciones) {
+    public void addDelegacion(Delegaciones delegaciones) {
         this.delegaciones.add(delegaciones);
     }
 
 
 
-    public ArrayList getCompeticion() {
-        return null;
+    public ArrayList getDelegacion() {
+        return delegaciones;
         
     }
 

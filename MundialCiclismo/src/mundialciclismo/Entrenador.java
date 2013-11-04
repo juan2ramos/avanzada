@@ -17,7 +17,10 @@ public class Entrenador extends Participantes  {
         this.tiempoCiclista = tiempoCiclista;
     }
 
-    
+    @Override
+    public String toString() {
+        return getNombre(); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
     

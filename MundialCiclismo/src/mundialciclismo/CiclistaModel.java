@@ -26,9 +26,7 @@ public class CiclistaModel implements ObjectsInterface{
     public void addCiclista(Ciclista ciclistas) {
         this.ciclistas.add(ciclistas);
     }
-
-
-
+    
     public ArrayList<Ciclista> getCiclista() {
         return ciclistas;
         
